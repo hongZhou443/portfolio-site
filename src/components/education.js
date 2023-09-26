@@ -29,7 +29,7 @@ function Education() {
                                     Northwestern University
                                 </div>
                                 <div className='text body regular'>
-                                    Bachelor's of Science | Computer Science '24
+                                    Bachelor's of Science | Computer Science '25
                                 </div>
                             </p>
                             <p><b className='text body regular'>Relevant Coursework: </b>Programming Fundamentals, Mathematical Foundations of CS, Computer Systems, Computer Architecture, Data Structures and Algorithms, Artificial Intelligence, Machine Learning, Optimization, Design of Algorithms</p>
