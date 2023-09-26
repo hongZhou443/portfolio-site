@@ -1,0 +1,96 @@
+.job-card-wrapper {
+    margin: 1rem;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5rem 0rem grey;
+
+    width: 60rem;
+    max-width: 80vw;
+    overflow: hidden;
+}
+
+.job-card-background {
+    position: relative;
+    height: 10rem;
+}
+
+.job-card-background-primary {
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.job-card-banner {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    filter: brightness(0.5);
+}
+
+.job-card-background-secondary {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding: 1rem;  
+    bottom: 0rem;
+}
+
+.job-card-company-icon {
+    height: 5rem;
+    width: 5rem;
+    background-color: white;
+}
+
+.job-card-company {
+    padding: 1rem;
+    font-size: 3rem;
+    color: white;
+}
+
+.job-card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-card-position {
+    font-size: 2rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+.job-card-details {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.job-card-dates {
+    text-align: left;
+    font-size: 1rem;
+    color: darkgrey;
+}
+
+.job-description {
+    display: list-item;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.job-description-bullet {
+    height: 0.2rem;
+    width: 0.2rem;
+    margin: 0.4rem;
+
+    border-radius: 3em;
+    background-color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .job-card-company-icon {
+        display: none;
+    }
+}
